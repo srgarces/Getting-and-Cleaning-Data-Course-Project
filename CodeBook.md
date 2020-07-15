@@ -4,11 +4,11 @@ The run_analysis.R script does the follwing:
 
 1. Load the data.table and tidyverse libraries, requires for the analysis
 
-	2. Download data in a zip folder
+2. Download data in a zip folder
 	
-	3. Unzip file 
+3. Unzip file 
 
-	4. Create data.tables as follows:
+4. Create data.tables as follows:
 
 	The id and name for activities: activities <- activity_labels.txt : 6 obs, 2 variables
 	Name of the columns: features <- features.txt : obs, 2 variables
@@ -19,7 +19,7 @@ The run_analysis.R script does the follwing:
 	recorderd train data: x_test <- test/X_test.txt: 2947 obs, 561 variables
 	data labels for test data: y_test <- test/y_test.txt: 2947 obs, 1 variable
 
-	5. Follow the 5 steps from instructions:
+5. Follow the 5 steps from instructions:
 	5.1 Merges the training and the test sets to create one data set
 
 	x_total (10299 obs, 561 variables) is created by merging x_train and x_test with rbind() 
@@ -40,5 +40,5 @@ The run_analysis.R script does the follwing:
 	5.5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject
 	the data frame grouped_tidy_df (180 obs, 88 variables) is created by taking the means of each variable for each activity subject from tidy_df
 	
-	6. Finally, export grouped_tidy_df as a .csv file.
+6. Finally, export grouped_tidy_df as a .csv file.
 
