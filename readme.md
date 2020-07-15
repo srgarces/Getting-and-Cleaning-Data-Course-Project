@@ -7,5 +7,5 @@ This repository is a submission for Getting and Cleaning Data course project. Yo
 
 2. run_analysis.R performs the data preparation as described in CodeBook.md
 
-3. grouped_tidy_df.csv is the final data after run_analysis.R is executed
+3. grouped_tidy_df.txt  is the final data after run_analysis.R is executed
 
