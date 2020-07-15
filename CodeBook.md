@@ -40,5 +40,5 @@ The run_analysis.R script does the follwing:
 	5.5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject
 	the data frame grouped_tidy_df (180 obs, 88 variables) is created by taking the means of each variable for each activity subject from tidy_df
 	
-6. Finally, export grouped_tidy_df as a .csv file.
+6. Finally, export grouped_tidy_df as a .txt file.
 
