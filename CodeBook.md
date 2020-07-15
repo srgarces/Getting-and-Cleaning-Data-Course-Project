@@ -2,7 +2,7 @@
 
 The run_analysis.R script does the follwing:
 
-	1. Load the data.table and tidyverse libraries, requires for the analysis
+1. Load the data.table and tidyverse libraries, requires for the analysis
 
 	2. Download data in a zip folder
 	
